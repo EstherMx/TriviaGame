@@ -1,0 +1,27 @@
+
+/*css*/
+
+.entire {
+	text-align: center;
+}
+
+.beginning {
+	padding-top: 200px;
+}
+
+#response {
+	padding-top: 350px;
+}
+
+body {
+	    background-image: url("http://wallpapercave.com/wp/jGdJp1c.jpg");
+	    color:white;
+}
+
+#doneBtn {
+	color: black;
+}
+
+#startBtn {
+	color: black;
+}

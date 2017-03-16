@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- The user will be able to select only one answer per question.
+Each option needs to have the same name so that there is only one checked answer -->
+  <div class="entire">
+    <div class="beginning">
+        <button id="startBtn" onclick="">
+            <h1>Start</h1></button>
+            <br>
+            <br>
+            <p><h4>You will have 60 seconds to answer all the questions</h4></p>
+            <p><h3>Good Luck!</h3></p>
+    </div>
+    <div id="game" style="display: none">
+        <div id="display">
+            <h2>00:45</h2></div>
+        <div class="form-check">
+            <label class="form-check-label">
+                <h3>How many planets are there in our solar system?</h3>
+                <input id="q1" class="form-check-input" type="radio" name="ans1" value=""> 8
+                <input id="q2" class="form-check-input" type="radio" name="ans1" value=""> 18
+                <input id="q3" class="form-check-input" type="radio" name="ans1" value=""> 9
+                <h3>Wich planet has a diameter of 139,822 km?</h3>
+                <input id="a1" class="form-check-input" type="radio" name="ans2" value=""> Earth
+                <input id="a2" class="form-check-input" type="radio" name="ans2" value=""> Jupiter
+                <input id="a3" class="form-check-input" type="radio" name="ans2" value=""> Neptune
+                <h3>Which planet is closest to the Sun?</h3>
+                <input id="b1" class="form-check-input" type="radio" name="ans3" value=""> Mars
+                <input id="b2" class="form-check-input" type="radio" name="ans3" value=""> Venus
+                <input id="b3" class="form-check-input" type="radio" name="ans3" value=""> Mercury
+                <h3>What is the hottest planet?</h3>
+                <input id="c1" class="form-check-input" type="radio" name="ans4" value=""> Earth
+                <input id="c2" class="form-check-input" type="radio" name="ans4" value=""> Venus
+                <input id="c3" class="form-check-input" type="radio" name="ans4" value=""> Saturn
+                <h3>Which planet is farthest from the Sun?</h3>
+                <input id="d1" class="form-check-input" type="radio" name="ans5" value=""> Neptune
+                <input id="d2" class="form-check-input" type="radio" name="ans5" value=""> Jupiter
+                <input id="d3" class="form-check-input" type="radio" name="ans5" value=""> Uranus
+            </label>
+        </div>
+        <br>
+        <div>
+            <button id="doneBtn" class="done" onclick="">Done</button>
+        </div>
+    </div>
+    <div id="response" style="display: none">
+        <div id="answers">
+            <div>
+                <h4>Correct answers: </h4>
+                <span id="right"></span>
+            </div>
+            <div>
+                <h4>Incorrect answers: </h4>
+                <span id="wrong"></span>
+            </div>
+            <div>
+                <h4>Unanswered: </h4>
+                <span id="zero"></span>
+            </div>
+        </div>
+    </div>
+  </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src= "assets/javascript/app.js">
+    $(document).ready(function() {
+
+    })
+
+</script>
+</body>
+
+</html>
