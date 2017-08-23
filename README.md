@@ -1,1 +1,1 @@
-# TriviaGame
+This is an educational game that enhances the player’s knowledge on the planets in our Solar System. Users must select the correct answers to a set of questions before the time is up.
